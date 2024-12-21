@@ -1,0 +1,23 @@
+
+    <html lang="pt-br">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Faça sua reserva</title>
+      </head>
+      <body>
+        <form action="/reserva" method="POST">
+          <label for="cadastroNome">Nome:</label>
+          <input type="text" id="cadastroNome" name="nome" required>
+          <label for="cadastroEmail">Email:</label>
+          <input type="email" id="cadastroEmail" name="email" required>
+          <label for="qtdPessoas">N° de pessoas:</label>
+          <input type="number" id="qtdPessoas" name="qtdPessoas" required>
+          <label for="dataReserva">Data da Reserva:</label>
+          <input type="date" id="dataReserva" name="dataReserva" required>
+          <button type="submit">Confirmar Reserva</button>
+        </form>
+      </body>
+    </html>
+
+
